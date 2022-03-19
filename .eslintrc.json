@@ -36,7 +36,8 @@
         "namedComponents": "arrow-function",
         "unnamedComponents": "arrow-function"
       }
-    ]
+    ],
+    "react/no-unescaped-entities": 0
   },
   "settings": {
     "import/resolver": {
