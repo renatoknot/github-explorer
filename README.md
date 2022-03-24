@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Github Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔍 Repository search using the Github API.
 
-## Available Scripts
+[Link to the Project](https://renato-github-explorer.netlify.app/)
 
-In the project directory, you can run:
+<img src="https://i.imgur.com/ZhvIzFt.png" width="100%" height="80%" alt="View" />
 
-### `yarn start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Before starting, you'll need to have the following tools installed on your machine:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable).
+Also it's nice to have an editor to work with the code like [VSCode](https://code.visualstudio.com/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠 Technologies
 
-### `yarn test`
+- [React](https://reactjs.org/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [create-react-app](https://github.com/facebook/create-react-app)
 
-### `yarn build`
+- [Styled Components](https://styled-components.com/docs)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React-Router-DOM](https://reactrouter.com/docs/en/v6)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Typescript](https://www.typescriptlang.org/docs/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup
 
-### `yarn eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Clone this repository
+$ git clone https://github.com/renatoknot/github-explorer.git
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Access the project folder in the terminal/cmd
+$ cd github-explorer
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Install dependencies
+$ yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Run the application in development mode
+$ yarn start
 
-## Learn More
+The server will start on port:3000 - go to http://localhost:3000 in the browser of your choice.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+
+## Usage
+
+Enter the authorname/repositoryname of a Github repository. Example: facebook/react and click search.
+
+When clicking on the listed repository, details coming from the github Api will be displayed, such as: author image, description, how many stars, how many forks, total issues, when clicking on the issue it will be directly linked to the issue on github.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
